@@ -5,6 +5,7 @@
 
     while ~ if ~ break (반복 조건문)
     */
+    // var key = ""; 문자 초기화 ("")
 
     while(true){
         //입력
@@ -22,4 +23,4 @@
             alert("키를 잘못 눌렀습니다.");
             }
         }
-        document.write("프로그램 종료!");
+        document.write("반복 종료!");

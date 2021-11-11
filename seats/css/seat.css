@@ -1,0 +1,12 @@
+#container{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+table, td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+h2{color:blue;}
