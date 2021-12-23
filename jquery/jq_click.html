@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <p>나를 클릭하면 내가 사라진다.</p>
+    <p class="">Click Me!</p>
+    <script>
+        //객체 함수 - click()과 hide() 사용
+        //객체 함수 - on()
+        $(document).ready(function(){
+            //click() 처리
+            $('p').click(function(){
+                $(this).hide();
+            });
+
+            //on() 처리 - 이벤트
+            $('.text').on('mouseover', function(){
+                $(this).hide()
+            });
+
+            $('.text').on('mouseout', function(){
+                $(this).show()
+            });
+        });
+    </script>
+    
+</body>
+</html>
